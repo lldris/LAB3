@@ -13,7 +13,7 @@ def main():
         if n_terms == 0:
             n_terms = input_type(float, "n_terms cannot be 0. Enter n_terms: ")
         else:
-            n_terms = input_type(float, "n_terms must be positive. Enter n_terms: ")
+            n_terms = input_type(float, "n_terms cannot be negative. Enter n_terms: ")
 
     arithmetic = artihmetic_sum(first_term_a, common_difference, n_terms)
     first_term_g = input_type(float, "Enter first_term_g: ")
